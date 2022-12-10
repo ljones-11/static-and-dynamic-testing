@@ -23,14 +23,14 @@ class CardGame:
     else
       return False
    
-  
+  # def to define function, comma between arguments. return card1. indentation of if statement
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
   else:
     return card2
   
-
+# total should be set to 0. total should be str(total) to concatenate the string.
 def cards_total(self, cards):
   total
   for card in cards:
