@@ -16,7 +16,7 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-
+#  should be ==. colon after else.
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -30,7 +30,7 @@ class CardGame:
   else:
     return card2
   
-# total should be set to 0. total should be str(total) to concatenate the string.
+# total should be set to 0. total should be str(total) to concatenate the string. Indentation on return.
 def cards_total(self, cards):
   total
   for card in cards:
